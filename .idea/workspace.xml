@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1097fac3-395d-4cac-8cb9-c9c7d669a44d" name="Changes" comment="hello">
-      <change beforePath="$PROJECT_DIR$/kaspi.py" beforeDir="false" afterPath="$PROJECT_DIR$/kaspi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
