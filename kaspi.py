@@ -31,16 +31,16 @@ def kaspi_shop_get_info(sku):
 
 
     info_competition = response_price_competition.json()['offers']
-    top_store = info_competition[0]['merchantName']  # НАЗВАНИЕ МАГАЗИНА
-    price_store = int(info_competition[0]['price'])  # ТОП ЦЕНА
-    two_store = info_competition[1]['merchantName']  # НАЗВАНИЕ МАГАЗИНА
-    two_price_store = int(info_competition[1]['price'])  # ТОП ЦЕНА
-    three_store = info_competition[2]['merchantName']  # НАЗВАНИЕ МАГАЗИНА
-    three_price_store = int(info_competition[2]['price'])  # ТОП ЦЕНА
-    four_store = info_competition[3]['merchantName']  # НАЗВАНИЕ МАГАЗИНА
-    four_price_store = int(info_competition[3]['price'])  # ТОП ЦЕНА
-    five_store = info_competition[4]['merchantName']  # НАЗВАНИЕ МАГАЗИНА
-    five_price_store = int(info_competition[4]['price'])  # ТОП ЦЕНА
+    top_store = info_competition[0]['merchantName']  # ТОП 1 МАГАЗИН
+    price_store = int(info_competition[0]['price'])  # ТОП 1 ЦЕНА
+    two_store = info_competition[1]['merchantName']  # ТОП 2 МАГАЗИН
+    two_price_store = int(info_competition[1]['price'])  # ТОП 2 ЦЕНА
+    three_store = info_competition[2]['merchantName']  # ТОП 3 МАГАЗИН
+    three_price_store = int(info_competition[2]['price'])  # ТОП 3 ЦЕНА
+    four_store = info_competition[3]['merchantName']  # ТОП 4 МАГАЗИН
+    four_price_store = int(info_competition[3]['price'])  # ТОП 4 ЦЕНА
+    five_store = info_competition[4]['merchantName']  # ТОП 5 МАГАЗИН
+    five_price_store = int(info_competition[4]['price'])  # ТОП 5 ЦЕНА
     return str(price_store) + " - " + top_store + "\n" + \
            str(two_price_store) + " - " + two_store + "\n" + \
            str(three_price_store) + " - " + three_store + "\n" + \
